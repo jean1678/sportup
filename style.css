@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    color: black;
+    border-radius: 10px;
+    align-items: center;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #006767;
+    color: white;
+    margin: auto;
+  }
+
+.rodape{
+    color: #C2C2C2;
+}
+
+body{
+    background-color: #8FD2D7;
+}
+
+.area_pesquisa{
+    background-color: #C2C2C2;
+    border-radius: 20px;
+    margin: 10px 5px 10px 5px;
+}
+
+.banner{
+    width: 100%;
+    padding: 25px;
+}
+
+.rodape{
+  background-color: #D9D9D9;
+  padding: auto;
+}
+
+.marcas{
+  width: 100%;
+  padding: 50px;
+}
+
+p{
+  color: black;
+  text-align: center;
+}
+
+a{
+  list-style-type: none;
+}
+
+.cartoes{
+  width: 100%;
+  margin: 20px 5px 20px 5px;
+}
+
+.copy{
+  background-color: #C2C2C2;
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px)
+{
+
+  .area_banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #carouselExampleControls{
+    width: 600px;
+    height: 750px;
+    border: 2px solid black;
+    box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.644);
+    background-color: #368484;
+    border-radius: 25px;
+  }
+  .marcas{
+    width: 700px;
+  } 
+  .cartoes{
+    width: 400px;
+  }
+
+  .copy{
+    text-align: center;
+  }
+  .mobile-container{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .topnav{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #myLinks{
+    display: block !important;
+    align-items: ;
+  }
+
+  .icon{
+    display: none !important;
+  }
+}
+
+
